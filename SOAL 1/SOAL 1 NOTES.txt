@@ -1,0 +1,10 @@
+Solution :
+1. Pemesanan dilakukan dengan user sebagai customer melakukan order yg nantinya akan dicatat pada tabel orders dengan item yang dicatat pada order_items yang transaksi dan pembayaran tercatat pada transactions dengan payment_method yang dicatat pada payment_method
+2. Data struk pembelian didapatkan dengan cara mengambil data" pada beberapa tabel diantaranya orders,order_items,transactions
+3. Data laporan ini juga didapatkan dengan cara mengambil data" pada beberapa tabel diantaranya orders,order_items,transactions
+4. Laporan stok tercatat pada stock_histories yang didalamnya tercatat bagaimana stock dikelola
+
+Inovation :
+1. Beberapa tambahan yg bisa dikembangkan adalah sistem voucher dan juga multiple merchants yang bisa dikembangkan kedalam sistem
+2. Teknologi pengelolaan POS bisa menggunakan beberapa 3rd party payment gateway yg ada dan proses pencetakaan struk belanja bisa menggunakan POS printer seperti wiseasy
+3. Untuk small scale application mungkin bisa menggunakan PHP dan Laravel dengan menggunakan MySQL dengan layanan AWS. Apabila diperuntukan untuk skala besar mungkin bisa ditambahkan beberapa layanan NoSQL. 
